@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+   
+<head>
+   <meta charset="utf-8">
+   <title>Site LSPD</title>
+   <link rel="stylesheet" href="CSS/acceuil.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+ 
+</head>
+        
+<body id="bodylogin">
+   <header>
+      <nav>
+      </nav>
+      <div id="imagePrincipal2">
+         <h1>Site LSPD</h1>
+         <div id="trait1"></div>
+         
+         <div class="container">
+            <h1 class="label">User Login</h1>
+            <form class="login_form" action="agents.html" method="post" name="form" onsubmit="return validated()">
+               <div class="font">Email or Phone</div>
+               <input autocomplete="off" type="text" name="email">
+               <div id="email_error">Please fill up your Email or Phone</div>
+               <div class="font font2">Password</div>
+               <input type="password" name="password">
+               <div id="pass_error">Please fill up your Password</div>
+               <button type="submit">Login</button>
+            </form>
+         </div>	
+         <script src="valid.js"></script>
+         
+    </header>
+  </body>
+</html>
